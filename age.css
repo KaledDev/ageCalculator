@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fdf2c3;
+}
+.ageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.text {
+    font-size: 1.5rem;
+}
+input {
+    margin-top: 30px;
+    outline: none;
+    width: 250px;
+    height: 40px;
+}
+
+#calculAge {
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid white;
+    color: #ffffff;
+    margin-top: 30px;
+    background: #66D46F;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#displayAge {
+    margin-top: 10px;font-size: 1.1rem;
+    font-weight: 700;
+}
